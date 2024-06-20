@@ -1,6 +1,14 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import {
+  CheckCircle,
+  ChevronDown,
+  ChevronUp,
+  Menu,
+  Star,
+  X,
+} from "lucide-react";
 export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
@@ -36,11 +44,11 @@ export default function Home() {
                 </div>
             </aside>
 
-            <div className="grid  place-items-center sm:mt-20">
+            {/* <div className="grid  place-items-center sm:mt-20">
                 <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
-            </div>
+            </div> */}
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Shashwat</h1>
+            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium"></h1>
 
 
                   {/* Hero Section */}
@@ -416,7 +424,7 @@ export default function Home() {
               </div>
             </form>
             <p className="mt-2 lg:text-center">
-              <span className="text-sm text-gray-600">
+              <span className="text-sm text-gray-600 ">
                 By signing up, you agree to our terms of service and privacy policy.
               </span>
             </p>
